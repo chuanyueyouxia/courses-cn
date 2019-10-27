@@ -1,6 +1,7 @@
 # This is the default format.
 # For more see: http://jekyllrb.com/docs/permalinks/
-permalink: pretty
+
+permalink: /posts/:categories/:title
 paginate: 1
 paginate_path: "/blog/page:num/"
 
@@ -101,5 +102,3 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
-  
-  permalink: /posts/:categories/:title
